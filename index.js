@@ -15,14 +15,14 @@ const menu = require("./lib/menu.js")
 
 const apivhtear = 'Apikey vhtear';
 const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
+const BotName = 'PB BOT'; 
+const instagram = 'arrezza20'; 
 const aktif = 'Kapan bot aktif';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Agus\n' // Nama kamu
-            + 'ORG:VVIPINDO;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' //Nomor whatsapp kamu
+            + 'FN: Faiz\n' // Nama kamu
+            + 'ORG: PB BOT;\n' // Nama bot
+            + 'TEL;type=CELL;type=VOICE;waid=62 819-5929-3465 + 62 812-7367-7810\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
@@ -78,7 +78,7 @@ conn.on('user-presence-update', json => console.log(json.id + ' presence is => '
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@agus_aliansyah71`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@arrezza20`)
 })
 
 conn.on('message-new', async(m) =>
